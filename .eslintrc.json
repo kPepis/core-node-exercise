@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb-base",
+  "rules": {
+    "quotes": ["error", "double"],
+    "arrow-parens": ["error", "as-needed"],
+    "arrow-body-style": ["error", "as-needed"],
+    "func-names": ["error", "never"],
+    "max-len": ["warn", 80],
+    "no-underscore-dangle": ["off", { "allow": ["foo_", "_bar"] }]
+  }
+}
